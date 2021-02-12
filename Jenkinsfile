@@ -32,7 +32,7 @@ node() {
 		def testExecutionFieldId = 11203
 		def testEnvironmentFieldName = "customfield_11830"
 		def projectKey = "PGPDT"
-		def xrayConnectorId = 'f817bc82-c1f5-463d-a07a-44ea65a35ca5'
+		def xrayConnectorId = '8f3294e8-12e1-4c92-a6cb-85e8b3081a29'
 		def info = '''{
 				"fields": {
 					"project": {
