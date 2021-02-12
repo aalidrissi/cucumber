@@ -1,6 +1,6 @@
 node() {
 
-    def repoURL = 'https://github.com/gabrielstar/cucumber.git'
+    def repoURL = 'https://github.com/aalidrissi/cucumber.git'
 
     stage("Prepare Workspace") {
         cleanWs()
@@ -10,7 +10,7 @@ node() {
         echo "Build time:" + env.BUILD_TIME
     }
     stage('Checkout Self') {
-        git branch: 'xray_video', credentialsId: '', url: repoURL
+        git branch: 'main', credentialsId: '', url: repoURL
     }
     stage('Cucumber Tests') {
         withMaven(maven: 'maven35') {
@@ -29,10 +29,10 @@ node() {
 		def description = "[BUILD_URL|${env.BUILD_URL}]"
 		def labels = '["regression","automated_regression"]'
 		def environment = "DEV"
-		def testExecutionFieldId = 10007
-		def testEnvironmentFieldName = "customfield_10132"
-		def projectKey = "WOO"
-		def xrayConnectorId = '3ecdab2a-9ccb-4b99-99cb-2312e9135dc5'
+		def testExecutionFieldId = 11203
+		def testEnvironmentFieldName = "customfield_11830"
+		def projectKey = "PGPDT"
+		def xrayConnectorId = 'f817bc82-c1f5-463d-a07a-44ea65a35ca5'
 		def info = '''{
 				"fields": {
 					"project": {
