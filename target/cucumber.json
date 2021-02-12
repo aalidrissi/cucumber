@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 4,
+        "line": 5,
         "name": "First Hello",
         "description": "",
         "id": "first-feature;first-hello",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 196023300,
+              "duration": 138450500,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I have \"first\" task",
             "match": {
               "arguments": [
@@ -30,10 +30,10 @@
           },
           {
             "result": {
-              "duration": 674600,
+              "duration": 736800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Step from \"First Hello\" in \"First Feature\" feature file",
             "match": {
               "arguments": [
@@ -52,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 84800,
+              "duration": 58600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I attempt to solve it",
             "match": {
               "location": "Steps.i_attempt_to_solve_it()"
@@ -64,10 +64,10 @@
           },
           {
             "result": {
-              "duration": 68000,
+              "duration": 75900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I surely succeed",
             "match": {
               "location": "Steps.i_surely_succeed()"
@@ -80,7 +80,7 @@
             "name": "@hello"
           },
           {
-            "name": "@WOO-2"
+            "name": "@HLXRAYT-3"
           }
         ]
       }
@@ -90,6 +90,15 @@
     "id": "first-feature",
     "keyword": "Feature",
     "uri": "com/mycompany/app/basicScenario.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@hello",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
