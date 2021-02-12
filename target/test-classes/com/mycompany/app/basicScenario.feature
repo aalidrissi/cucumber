@@ -1,7 +1,6 @@
-@hello
 Feature: First Feature
 
-	@HLXRAYT-3
+	@HLXRAYT-3 @unlock-forms
 	Scenario: First Hello
 		Given I have "first" task
 		And Step from "First Hello" in "First Feature" feature file

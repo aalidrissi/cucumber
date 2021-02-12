@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.BaseRunnerTest" time="0.575" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.BaseRunnerTest" time="0.435" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\AALIDR~1\AppData\Local\Temp\surefire1944687107672459264\surefirebooter5319509976754470744.jar C:\Users\AALIDRISSI\AppData\Local\Temp\surefire1944687107672459264 2021-02-12T17-40-09_398-jvmRun1 surefire1151719768628275427tmp surefire_06400193506552467926tmp"/>
+    <property name="sun.java.command" value="C:\Users\AALIDR~1\AppData\Local\Temp\surefire7646593657693932190\surefirebooter5541823699351876023.jar C:\Users\AALIDRISSI\AppData\Local\Temp\surefire7646593657693932190 2021-02-12T18-59-11_046-jvmRun1 surefire402793564819749432tmp surefire_07137019694699277985tmp"/>
     <property name="surefire.test.class.path" value="C:\DSI\workspace\cucumber_aal\target\test-classes;C:\DSI\workspace\cucumber_aal\target\classes;C:\Users\AALIDRISSI\.m2\repository\io\cucumber\cucumber-junit\2.3.1\cucumber-junit-2.3.1.jar;C:\Users\AALIDRISSI\.m2\repository\io\cucumber\cucumber-core\2.3.1\cucumber-core-2.3.1.jar;C:\Users\AALIDRISSI\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\AALIDRISSI\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\AALIDRISSI\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\AALIDRISSI\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\AALIDRISSI\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\AALIDRISSI\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AALIDRISSI\.m2\repository\io\cucumber\cucumber-java\2.3.1\cucumber-java-2.3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\AALIDRISSI"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\AALIDR~1\AppData\Local\Temp\surefire1944687107672459264\surefirebooter5319509976754470744.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AALIDR~1\AppData\Local\Temp\surefire7646593657693932190\surefirebooter5541823699351876023.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -60,5 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="First Hello" classname="First Feature" time="0.143"/>
+  <testcase name="First Hello" classname="Background Feature" time="0.104"/>
+  <testcase name="Second Hello" classname="Background Feature" time="0.001"/>
+  <testcase name="Third Hello" classname="Background Feature" time="0.001"/>
+  <testcase name="First Hello" classname="First Feature" time="0.001"/>
+  <testcase name="First Hellol" classname="Data Tables Feature" time="0.003"/>
+  <testcase name="first Hello" classname="Background Feature" time="0.001"/>
+  <testcase name="second Hello" classname="Background Feature" time="0.001"/>
 </testsuite>
