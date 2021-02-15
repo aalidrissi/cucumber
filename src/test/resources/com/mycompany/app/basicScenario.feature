@@ -1,8 +1,10 @@
-Feature: First Feature
+Feature: Default
 
-	@HLXRAYT-3 @unlock-forms
-	Scenario: First Hello
-		Given I have "first" task
-		And Step from "First Hello" in "First Feature" feature file
-		When I attempt to solve it
-		Then I surely succeed
+	
+	@TEST_HLXRAYT-3
+	Scenario: Test1
+		Scenario: First Hello
+			Given I have "first" task
+			And Step from "First Hello" in "First Feature" feature file
+			When I attempt to solve it
+			Then I surely succeed
